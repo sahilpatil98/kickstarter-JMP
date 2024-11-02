@@ -31,6 +31,7 @@ if response.status_code == 200:
     ## Download each json file
     for json_url in json_links:
         # Get the JSON file
+        ### BOO-BOO FROM HERE
         json_response = requests.get(json_url)
         print(json_response.status_code)
         if json_response.status_code == 200:
